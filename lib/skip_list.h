@@ -12,7 +12,7 @@
 template <typename T>
 class LazySkipList {
 public:
-    static constexpr int MAX_LEVEL = 31;
+    static const int MAX_LEVEL = 31;
 //protected:
     class Node {
     public:
